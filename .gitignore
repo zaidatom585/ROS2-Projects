@@ -1,0 +1,25 @@
+# ROS 2 generated file build/
+install/
+log/
+build/
+
+# Old projects
+my_package/
+my_robot_description/
+py_pubsub/
+ros_tutorials/
+urdf/
+display.launch.py
+package.xml
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
