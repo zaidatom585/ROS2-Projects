@@ -1,20 +1,32 @@
-# ROS 2 generated file build/
+# ROS 2 build artifacts
+build/
 install/
 log/
-build/
 
-# Old projects
-my_package/
-my_robot_description/
-py_pubsub/
-ros_tutorials/
-urdf/
-display.launch.py
-package.xml
+# Old ROS 2 tutorial projects
+/my_package/
+/my_robot_description/
+/py_pubsub/
+/ros_tutorials/
+/src/my_package/
+/src/my_robot_description/
+/src/py_pubsub/
+/src/ros_tutorials/
+
+# Old workspace-level files
+/urdf/
+/display.launch.py
+/package.xml
 
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Generated ROS / TF files
+*.gv
+*.pdf
 
 # IDE
 .vscode/
@@ -23,3 +35,8 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
